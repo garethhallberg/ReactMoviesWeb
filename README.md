@@ -1,6 +1,6 @@
 # react querying a movie API
 
-App for learning - not the gretaest but shows useEffect in a simple manner.
+App for learning - not the greatest but shows useEffect in a simple manner.
 
 ## useEffect
 
