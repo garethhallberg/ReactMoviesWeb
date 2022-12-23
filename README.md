@@ -1,4 +1,4 @@
-# react querying a mobie API
+# react querying a movie API
 
 App for learning - not the gretaest but shows useEffect in a simple manner.
 
