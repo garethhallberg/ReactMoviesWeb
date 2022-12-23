@@ -5,7 +5,7 @@ import Movie from "./Movie";
 import Search from "./Search";
 
 
-const MOVIE_API_URL = "https://www.omdbapi.com/?s=man&apikey=4a3b711b"; // you should replace this with yours
+const MOVIE_API_URL = "https://www.omdbapi.com/?s=girl&apikey=4a3b711b"; // you should replace this with yours
 
 
 const App = () => {
@@ -17,6 +17,7 @@ const App = () => {
     fetch(MOVIE_API_URL)
       .then(response => response.json())
       .then(jsonResponse => {
+        console.log("1 " + JSON.stringify(jsonResponse))
         setMovies(jsonResponse.Search);
         setLoading(false);
       });
@@ -30,6 +31,7 @@ const App = () => {
       .then(response => response.json())
       .then(jsonResponse => {
         if (jsonResponse.Response === "True") {
+          console.log("2 " + JSON.stringify(jsonResponse))
           setMovies(jsonResponse.Search);
           setLoading(false);
         } else {
