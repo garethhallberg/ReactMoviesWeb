@@ -4,7 +4,7 @@ App for learning - not the gretaest but shows useEffect in a simple manner.
 
 ## useEffect
 
-App.js loads and useeffect happens and makes teh call looking for movies with the word girl in it's title.
+App.js loads and useEffect happens and makes the call looking for movies with the word girl in it's title.
 
 ## simple fetch
 
