@@ -9,3 +9,7 @@ App.js loads and useEffect happens and makes the call looking for movies with th
 ## simple fetch
 
 Demonstrates some very simple networking code. Also shows a function being passed to do the network call in search.
+
+## get it to run locally
+
+yarn start
